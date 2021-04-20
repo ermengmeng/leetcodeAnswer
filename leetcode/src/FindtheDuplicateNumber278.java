@@ -10,6 +10,17 @@ public class FindtheDuplicateNumber278 {
     }
 
     public int findDuplicate(int[] nums) {
+        for (int i = 0; i < nums.length; i++) {
+            int value = Math.abs(nums[i]);
+            if (nums[value-1] < 0) {
+                return value;
+            }
+            nums[value-1] = -nums[value-1];
+        }
+        return 0;
+    }
+
+    public int findDuplicate2(int[] nums) {
         int[] t = new int[nums.length];
         for (int i = 0; i < nums.length; i++) {
             if (t[nums[i]]++ > 0) {
