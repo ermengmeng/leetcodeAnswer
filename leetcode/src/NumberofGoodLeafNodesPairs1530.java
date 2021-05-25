@@ -14,7 +14,7 @@ public class NumberofGoodLeafNodesPairs1530 {
 
     Map<TreeNode, List<List<Integer>>> cacheMap = new HashMap<>();
     public int countPairs(TreeNode root, int distance) {
-        computeDistance(root);
+        computeDistance(root, distance);
         int pairSum = 0;
         for (List<List<Integer>> list : cacheMap.values()) {
             if (list.size() == 1) {
@@ -31,22 +31,22 @@ public class NumberofGoodLeafNodesPairs1530 {
         return pairSum;
     }
 
-    private List<Integer> computeDistance(TreeNode cur) {
+    private List<Integer> computeDistance(TreeNode cur, int distance) {
         if (cur.left == null && cur.right == null) {
             return Arrays.asList(0);
         }
         List<Integer> list = new ArrayList<>();
         if (cur.left != null) {
-            List<Integer> leftList = computeDistance(cur.left);
-            leftList = leftList.stream().map(i -> i+1).collect(Collectors.toList());
+            List<Integer> leftList = computeDistance(cur.left, distance);
+            leftList = leftList.stream().map(i -> i+1).filter(d -> d < distance).collect(Collectors.toList());
             List<List<Integer>> cacheList = cacheMap.getOrDefault(cur, new ArrayList<>());
             cacheList.add(leftList);
             cacheMap.put(cur, cacheList);
             list.addAll(leftList);
         }
         if (cur.right != null) {
-            List<Integer> rightList = computeDistance(cur.right);
-            rightList = rightList.stream().map(i -> i+1).collect(Collectors.toList());
+            List<Integer> rightList = computeDistance(cur.right, distance);
+            rightList = rightList.stream().map(i -> i+1).filter(d -> d < distance).collect(Collectors.toList());
             List<List<Integer>> cacheList = cacheMap.getOrDefault(cur, new ArrayList<>());
             cacheList.add(rightList);
             cacheMap.put(cur, cacheList);
