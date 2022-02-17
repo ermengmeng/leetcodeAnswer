@@ -6,9 +6,9 @@ import java.util.List;
  * @Date: 2021/7/12 7:09 下午
  * @Version 1.0
  */
-public class GenerateParentheses22 {
+public class M22GenerateParentheses {
     public static void main(String[] args) {
-        GenerateParentheses22 o = new GenerateParentheses22();
+        M22GenerateParentheses o = new M22GenerateParentheses();
         System.out.println(o.generateParenthesis(3));
     }
 

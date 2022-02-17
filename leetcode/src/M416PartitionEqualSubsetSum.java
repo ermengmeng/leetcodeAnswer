@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2021/5/27 1:27 下午
  * @Version 1.0
  */
-public class PartitionEqualSubsetSum416 {
+public class M416PartitionEqualSubsetSum {
     public static void main(String[] args) {
-        PartitionEqualSubsetSum416 o = new PartitionEqualSubsetSum416();
+        M416PartitionEqualSubsetSum o = new M416PartitionEqualSubsetSum();
     }
 
     public boolean canPartition(int[] nums) {

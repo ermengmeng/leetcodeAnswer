@@ -3,9 +3,9 @@
  * @Date: 2021/7/12 6:52 下午
  * @Version 1.0
  */
-public class RemoveNthNodeFromEndofList19 {
+public class M19RemoveNthNodeFromEndofList {
     public static void main(String[] args) {
-        RemoveNthNodeFromEndofList19 o = new RemoveNthNodeFromEndofList19();
+        M19RemoveNthNodeFromEndofList o = new M19RemoveNthNodeFromEndofList();
     }
 
       public class ListNode {

@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2021/8/2 12:19 下午
  * @Version 1.0
  */
-public class NextPermutation31 {
+public class M31NextPermutation {
     public static void main(String[] args) {
-        NextPermutation31 o = new NextPermutation31();
+        M31NextPermutation o = new M31NextPermutation();
         o.nextPermutation(new int[]{1, 2, 3});
     }
 

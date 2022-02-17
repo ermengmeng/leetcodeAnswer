@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2021/4/19 8:07 下午
  * @Version 1.0
  */
-public class MatchstickstoSquare473 {
+public class M473MatchstickstoSquare {
     public static void main(String[] args) {
-        MatchstickstoSquare473 o = new MatchstickstoSquare473();
+        M473MatchstickstoSquare o = new M473MatchstickstoSquare();
         System.out.println(o.makesquare(new int[]{}));
     }
 

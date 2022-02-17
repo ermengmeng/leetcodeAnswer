@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2021/4/15 7:54 下午
  * @Version 1.0
  */
-public class BagofTokens948 {
+public class M948BagofTokens {
     public static void main(String[] args) {
-        BagofTokens948 o = new BagofTokens948();
+        M948BagofTokens o = new M948BagofTokens();
         System.out.print((o.bagOfTokensScore(new int[]{100}, 50)));
     }
     public int bagOfTokensScore(int[] tokens, int P) {

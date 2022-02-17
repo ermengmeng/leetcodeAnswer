@@ -3,10 +3,10 @@
  * @Date: 2021/7/14 4:03 下午
  * @Version 1.0
  */
-public class SwapNodesinPairs24 {
+public class M24SwapNodesinPairs {
 
     public static void main(String[] args) {
-        SwapNodesinPairs24 o = new SwapNodesinPairs24();
+        M24SwapNodesinPairs o = new M24SwapNodesinPairs();
     }
 
 

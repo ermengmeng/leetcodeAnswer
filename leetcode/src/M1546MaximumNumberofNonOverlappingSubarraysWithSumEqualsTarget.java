@@ -1,4 +1,3 @@
-import java.util.BitSet;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,9 +6,9 @@ import java.util.Set;
  * @Date: 2021/4/16 6:53 下午
  * @Version 1.0
  */
-public class MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget1546 {
+public class M1546MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget {
     public static void main(String[] args) {
-        MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget1546 o = new MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget1546();
+        M1546MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget o = new M1546MaximumNumberofNonOverlappingSubarraysWithSumEqualsTarget();
         System.out.print(o.maxNonOverlapping(new int[]{-1, 3, 5, 1, 4, 2, -9}, 6));
     }
 

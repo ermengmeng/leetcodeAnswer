@@ -3,9 +3,9 @@
  * @Date: 2021/5/31 4:57 下午
  * @Version 1.0
  */
-public class MaximalSquare221 {
+public class M221MaximalSquare {
     public static void main(String[] args) {
-        MaximalSquare221 o = new MaximalSquare221();
+        M221MaximalSquare o = new M221MaximalSquare();
         System.out.println(o.maximalSquare(new char[][]{new char[]{'1','0','1','1','0','1'}, new char[]{'1','1','1','1','1','1'},
                 new char[]{'0','1','1','0','1','1'}, new char[]{'1','1','1','0','1','0'},new char[]{'0','1','1','1','1','1'},new char[]{'1','1','0','1','1','1'}}));
     }

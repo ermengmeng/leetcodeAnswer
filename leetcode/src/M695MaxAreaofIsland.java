@@ -3,9 +3,9 @@
  * @Date: 2021/5/7 1:28 下午
  * @Version 1.0
  */
-public class MaxAreaofIsland695 {
+public class M695MaxAreaofIsland {
     public static void main(String[] args) {
-        MaxAreaofIsland695 o = new MaxAreaofIsland695();
+        M695MaxAreaofIsland o = new M695MaxAreaofIsland();
         o.maxAreaOfIsland(new int[][]{});
     }
 

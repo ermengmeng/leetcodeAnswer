@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2021/4/13 12:09 下午
  * @Version 1.0
  */
-public class DecodeXORedPermutation1734 {
+public class M1734DecodeXORedPermutation {
     public static void main(String[] args) {
-        DecodeXORedPermutation1734 o = new DecodeXORedPermutation1734();
+        M1734DecodeXORedPermutation o = new M1734DecodeXORedPermutation();
         System.out.print(Arrays.toString(o.decode(new int[]{6,5,4,6})));
     }
     public int[] decode(int[] encoded) {

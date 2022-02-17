@@ -6,9 +6,9 @@ import java.util.List;
  * @Date: 2021/4/21 4:04 下午
  * @Version 1.0
  */
-public class SplitArrayintoFibonacciSequence842 {
+public class M842SplitArrayintoFibonacciSequence {
     public static void main(String[] args) {
-        SplitArrayintoFibonacciSequence842 o = new SplitArrayintoFibonacciSequence842();
+        M842SplitArrayintoFibonacciSequence o = new M842SplitArrayintoFibonacciSequence();
         System.out.println(o.splitIntoFibonacci("123456579"));
     }
 

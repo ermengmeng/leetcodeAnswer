@@ -1,14 +1,11 @@
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @Author: ouyangyameng
  * @Date: 2021/6/30 1:23 下午
  * @Version 1.0
  */
-public class IntegertoRoman12 {
+public class M12IntegertoRoman {
     public static void main(String[] args) {
-        IntegertoRoman12 o = new IntegertoRoman12();
+        M12IntegertoRoman o = new M12IntegertoRoman();
         System.out.println(o.intToRoman(4));
     }
 

@@ -3,9 +3,9 @@
  * @Date: 2021/11/16 1:39 下午
  * @Version 1.0
  */
-public class CountAndSay38 {
+public class M38CountAndSay {
     public static void main(String[] args) {
-        System.out.println(new CountAndSay38().countAndSay(5));
+        System.out.println(new M38CountAndSay().countAndSay(5));
     }
 
     public String countAndSay(int n) {

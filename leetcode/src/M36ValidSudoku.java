@@ -6,9 +6,9 @@ import java.util.Set;
  * @Date: 2021/9/18 3:20 下午
  * @Version 1.0
  */
-public class ValidSudoku36 {
+public class M36ValidSudoku {
     public static void main(String[] args) {
-        ValidSudoku36 o = new ValidSudoku36();
+        M36ValidSudoku o = new M36ValidSudoku();
         System.out.println(o.isValidSudoku(new char[][] {
                 new char[]{'5','3','.','.','7','.','.','.','.'},new char[]{'6','.','.','1','9','5','.','.','.'},new char[]{'.','9','8','.','.','.','.','6','.'},new char[]{'8','.','.','.','6','.','.','.','3'},new char[]{'4','.','.','8','.','3','.','.','1'},new char[]{'7','.','.','.','2','.','.','.','6'},new char[]{'.','6','.','.','.','.','2','8','.'},new char[]{'.','.','.','4','1','9','.','.','5'},new char[]{'.','.','.','.','8','.','.','7','9'}
         }));

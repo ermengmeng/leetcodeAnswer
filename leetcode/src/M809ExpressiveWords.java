@@ -3,9 +3,9 @@
  * @Date: 2021/5/8 1:36 下午
  * @Version 1.0
  */
-public class ExpressiveWords809 {
+public class M809ExpressiveWords {
     public static void main(String[] args) {
-        ExpressiveWords809 o = new ExpressiveWords809();
+        M809ExpressiveWords o = new M809ExpressiveWords();
         System.out.println(o.expressiveWords("dddiiiinnssssssoooo", new String[]{"dinnssoo","ddinso","ddiinnso","ddiinnssoo","ddiinso","dinsoo","ddiinsso","dinssoo","dinso"}));
     }
     public int expressiveWords(String S, String[] words) {

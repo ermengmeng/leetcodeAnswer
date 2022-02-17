@@ -6,9 +6,9 @@ import java.util.Stack;
  * @Date: 2021/4/26 6:54 下午
  * @Version 1.0
  */
-public class RemoveAllAdjacentDuplicatesinStringII1209 {
+public class M1209RemoveAllAdjacentDuplicatesinStringII {
     public static void main(String[] args) {
-        RemoveAllAdjacentDuplicatesinStringII1209 o = new RemoveAllAdjacentDuplicatesinStringII1209();
+        M1209RemoveAllAdjacentDuplicatesinStringII o = new M1209RemoveAllAdjacentDuplicatesinStringII();
         System.out.println(o.removeDuplicates("deeedbbcccbdaa", 3));
     }
 

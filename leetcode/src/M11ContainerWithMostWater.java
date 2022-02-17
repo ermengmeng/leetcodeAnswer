@@ -3,9 +3,9 @@
  * @Date: 2021/6/29 1:41 下午
  * @Version 1.0
  */
-public class ContainerWithMostWater11 {
+public class M11ContainerWithMostWater {
     public static void main(String[] args) {
-        ContainerWithMostWater11 o = new ContainerWithMostWater11();
+        M11ContainerWithMostWater o = new M11ContainerWithMostWater();
         System.out.println(o.maxArea(new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7}));
     }
 

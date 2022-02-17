@@ -3,9 +3,9 @@
  * @Date: 2021/4/20 1:43 下午
  * @Version 1.0
  */
-public class FindtheDuplicateNumber278 {
+public class M278FindtheDuplicateNumber {
     public static void main(String[] args) {
-        FindtheDuplicateNumber278 o = new FindtheDuplicateNumber278();
+        M278FindtheDuplicateNumber o = new M278FindtheDuplicateNumber();
         o.findDuplicate(new int[]{});
     }
 

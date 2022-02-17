@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @Version 1.0
  */
 //TODO 优化
-public class LongestWellPerformingInterval1124 {
+public class M1124LongestWellPerformingInterval {
     public int longestWPI(int[] hours) {
         int max = 0;
         for (int i = 0 ; i < hours.length; i++) {

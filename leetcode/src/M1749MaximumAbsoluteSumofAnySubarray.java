@@ -3,9 +3,9 @@
  * @Date: 2021/5/19 2:03 下午
  * @Version 1.0
  */
-public class MaximumAbsoluteSumofAnySubarray1749 {
+public class M1749MaximumAbsoluteSumofAnySubarray {
     public static void main(String[] args) {
-        MaximumAbsoluteSumofAnySubarray1749  o = new MaximumAbsoluteSumofAnySubarray1749();
+        M1749MaximumAbsoluteSumofAnySubarray o = new M1749MaximumAbsoluteSumofAnySubarray();
         System.out.println();
     }
 

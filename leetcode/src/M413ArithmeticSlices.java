@@ -3,9 +3,9 @@
  * @Date: 2021/5/20 2:33 下午
  * @Version 1.0
  */
-public class ArithmeticSlices413 {
+public class M413ArithmeticSlices {
     public static void main(String[] args) {
-        ArithmeticSlices413 o = new ArithmeticSlices413();
+        M413ArithmeticSlices o = new M413ArithmeticSlices();
     }
 
     public int numberOfArithmeticSlices(int[] nums) {

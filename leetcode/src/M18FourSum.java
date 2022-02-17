@@ -5,9 +5,9 @@ import java.util.*;
  * @Date: 2021/4/20 1:58 下午
  * @Version 1.0
  */
-public class FourSum18 {
+public class M18FourSum {
     public static void main(String[] args) {
-        FourSum18 o = new FourSum18();
+        M18FourSum o = new M18FourSum();
         System.out.println(o.fourSum(new int[]{}, 0));
     }
 

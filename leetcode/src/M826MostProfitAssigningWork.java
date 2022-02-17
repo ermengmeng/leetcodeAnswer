@@ -1,15 +1,14 @@
 import java.util.Arrays;
 import java.util.Comparator;
-import java.util.Map;
 
 /**
  * @Author: ouyangyameng
  * @Date: 2021/5/18 2:00 下午
  * @Version 1.0
  */
-public class MostProfitAssigningWork826 {
+public class M826MostProfitAssigningWork {
     public static void main(String[] args) {
-        MostProfitAssigningWork826 o = new MostProfitAssigningWork826();
+        M826MostProfitAssigningWork o = new M826MostProfitAssigningWork();
         System.out.println(o.maxProfitAssignment(new int[]{2,4,6,8,10}, new int[]{10,20,30,40,50}, new int[]{4,5,6,7}));
     }
     public int maxProfitAssignment(int[] difficulty, int[] profit, int[] worker) {

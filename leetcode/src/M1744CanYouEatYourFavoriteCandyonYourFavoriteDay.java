@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2021/4/13 7:16 下午
  * @Version 1.0
  */
-public class CanYouEatYourFavoriteCandyonYourFavoriteDay1744 {
+public class M1744CanYouEatYourFavoriteCandyonYourFavoriteDay {
     public static void main(String[] args) {
-        CanYouEatYourFavoriteCandyonYourFavoriteDay1744 o = new CanYouEatYourFavoriteCandyonYourFavoriteDay1744();
+        M1744CanYouEatYourFavoriteCandyonYourFavoriteDay o = new M1744CanYouEatYourFavoriteCandyonYourFavoriteDay();
         System.out.print(Arrays.toString(o.canEat(new int[]{7,4,5,3,8}, new int[][]{new int[]{0,2,2},new int[]{4,2,4},new int[]{2,13,1000000000}})));
     }
 

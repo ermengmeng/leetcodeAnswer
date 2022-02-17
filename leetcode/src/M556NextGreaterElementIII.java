@@ -7,9 +7,9 @@ import java.util.List;
  * @Date: 2021/4/22 1:59 下午
  * @Version 1.0
  */
-public class NextGreaterElementIII556 {
+public class M556NextGreaterElementIII {
     public static void main(String[] args) {
-        NextGreaterElementIII556 o = new NextGreaterElementIII556();
+        M556NextGreaterElementIII o = new M556NextGreaterElementIII();
         System.out.println(o.nextGreaterElement(21));
     }
 

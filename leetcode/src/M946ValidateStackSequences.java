@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.Stack;
@@ -8,10 +7,10 @@ import java.util.Stack;
  * @Date: 2021/4/15 7:30 下午
  * @Version 1.0
  */
-public class ValidateStackSequences946 {
+public class M946ValidateStackSequences {
 
     public static void main(String[] args) {
-        ValidateStackSequences946 o = new ValidateStackSequences946();
+        M946ValidateStackSequences o = new M946ValidateStackSequences();
         System.out.print((o.validateStackSequences(new int[]{1,2,3,4,5}, new int[]{4,5,3,2,1})));
     }
 

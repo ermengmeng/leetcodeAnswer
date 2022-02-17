@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
  * @Date: 2021/5/21 1:54 下午
  * @Version 1.0
  */
-public class NumberofGoodLeafNodesPairs1530 {
+public class M1530NumberofGoodLeafNodesPairs {
     public static void main(String[] args) {
-        NumberofGoodLeafNodesPairs1530 o = new NumberofGoodLeafNodesPairs1530();
+        M1530NumberofGoodLeafNodesPairs o = new M1530NumberofGoodLeafNodesPairs();
     }
 
 
