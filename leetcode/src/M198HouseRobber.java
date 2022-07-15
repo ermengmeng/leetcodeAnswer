@@ -4,6 +4,17 @@
  * @Version 1.0
  */
 public class M198HouseRobber {
+    /**
+     * 简单的动态规划递推公式
+     * withEnd记录选择第i位时,0-i的最大值
+     * noEnd记录不选择第i位时,0-i的最大值
+     * 所以有
+     * noEnd[i] = Math.max(withEnd[i - 1], noEnd[i - 1]);
+     * withEnd[i] = Math.max(withEnd[i - 2], noEnd[i - 1]) +  + nums[i];
+     * 由于递推公式中含有i-2,所以初始化前两位的值
+     * @param nums
+     * @return
+     */
     public int rob(int[] nums) {
         if (nums.length == 0) {
             return 0;
