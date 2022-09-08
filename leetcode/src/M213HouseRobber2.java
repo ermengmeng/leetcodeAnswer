@@ -8,6 +8,7 @@ public class M213HouseRobber2 {
         System.out.println(new M213HouseRobber2().rob(new int[]{1,2,3}));
     }
 
+    //根据是否选择0 分开计算取最大值
     public int rob(int[] nums) {
         int[] withEnd = new int[nums.length];
         int[] noEnd = new int[nums.length];
