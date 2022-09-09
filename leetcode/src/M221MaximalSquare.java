@@ -11,7 +11,11 @@ public class M221MaximalSquare {
     }
 
 
-    
+    //自左上角向右下角判断填写临时表。
+    //临时表i,j的值为以i,j为右下角的正方形的最大边长
+    //而i+1,j+1的最大边长为i,j的最大边长+1
+    //通过从i+1,j+1的点逐步判断该行列的值可以得到最大的边长。
+    //并Max记录过程中出现的最大值即可
     public int maximalSquare(char[][] matrix) {
         int max = 0;
         int[][] cache = new int[matrix.length][matrix[0].length];
