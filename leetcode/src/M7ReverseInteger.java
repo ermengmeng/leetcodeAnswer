@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @Author: ouyangyameng
  * @Date: 2022/2/23 10:06 上午
@@ -8,7 +5,7 @@ import java.util.List;
  */
 public class M7ReverseInteger {
     public static void main(String[] args) {
-        System.out.println(new M7ReverseInteger().reverse(123));
+        System.out.println(new M7ReverseInteger().reverse(-123));
     }
 
     public int reverse(int x) {
