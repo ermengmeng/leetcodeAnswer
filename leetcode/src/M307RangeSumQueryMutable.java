@@ -25,6 +25,12 @@ public class M307RangeSumQueryMutable {
         nums[index] = val;
     }
 
+    /**
+     * 每次计算range时从上次生成的sum中增量生成
+     * @param left
+     * @param right
+     * @return
+     */
     public int sumRange(int left, int right) {
         if (left < this.left) {
             for (int i = left; i < this.left; i++) {
