@@ -22,13 +22,13 @@ public class M36ValidSudoku {
                 if (board[i][j] == '.') {
                     continue;
                 }
-                if (!set.add( i * 1000 + 100 + board[i][j])) {
+                if (!set.add( i * 100 + 10 + board[i][j])) {
                     return false;
                 }
-                if (!set.add(j * 1000 + 200 + board[i][j])) {
+                if (!set.add(j * 100 + 20 + board[i][j])) {
                     return false;
                 }
-                if (!set.add((i / 3 * 10 + j / 3) * 1000 + 300 + board[i][j])) {
+                if (!set.add((i / 3 * 10 + j / 3) * 100 + 30 + board[i][j])) {
                     return false;
                 }
             }

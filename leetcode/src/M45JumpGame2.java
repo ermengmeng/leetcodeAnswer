@@ -22,4 +22,48 @@ public class M45JumpGame2 {
         }
         return res[0];
     }
+
+
+    //由于DP并不能从res[i+1】直接推出res[i]而是需要遍历后面所有的解，寻找最小的
+    //所以选用贪心,找出一步跳的范围内,下一步可以跳的最大的节点。
+    //最终得出最优路径
+    public int jump2(int[] nums) {
+        int max_i = 0;
+        int steps = 0;
+        int count = nums[0];
+        int i = 0;
+
+        if(nums.length == 1) {
+            return 0;
+        }
+
+        while(i < nums.length) {
+            if(count >= nums.length - (i + 1)) {
+                steps++;
+                break;
+            }
+
+            max_i = max(nums, i+1, i + nums[i]+1);
+
+            i = max_i;
+
+            count = nums[i];
+            steps++;
+
+        }
+
+        return steps;
+    }
+    public int max(int[] arr, int start, int end) {
+        int max = arr[start];
+        int index = 0;
+        while(start < end) {
+            if(max <= arr[start] + start) {
+                max = arr[start] + start;
+                index = start;
+            }
+            start++;
+        }
+        return index;
+    }
 }

@@ -8,6 +8,7 @@ import java.util.List;
  * @Version 1.0
  */
 public class M17LetterCombinationsOfAPhoneNumber {
+    //遍历所有组合的题目很自然的先考虑使用回溯
     public List<String> letterCombinations(String digits) {
         if (digits == null || digits.length() == 0) {
             return new ArrayList<>();

@@ -11,11 +11,10 @@ public class M7ReverseInteger {
     public int reverse(int x) {
         boolean isPositive = x >= 0;
         long xLong = Math.abs(x);
-        String s = Long.toString(xLong);
         long res = 0;
-        for (int i = s.length() - 1; i >= 0; i--) {
-            int c = s.charAt(i) - '0';
-            res = res * 10 + c;
+        while (xLong > 0) {
+            res = res * 10 + xLong % 10;
+            xLong /= 10;
         }
         if (!isPositive) {
             res = -res;

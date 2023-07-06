@@ -5,9 +5,9 @@ import java.util.Arrays;
  * @Date: 2022/2/11 2:19 下午
  * @Version 1.0
  */
-public class M34FindFirstAndLastPositionOfElementInSortedArray {
+public class E34FindFirstAndLastPositionOfElementInSortedArray {
     public static void main(String[] args) {
-        M34FindFirstAndLastPositionOfElementInSortedArray o = new M34FindFirstAndLastPositionOfElementInSortedArray();
+        E34FindFirstAndLastPositionOfElementInSortedArray o = new E34FindFirstAndLastPositionOfElementInSortedArray();
         System.out.println(Arrays.toString(o.searchRange(new int[]{2,2}, 2)));
     }
 

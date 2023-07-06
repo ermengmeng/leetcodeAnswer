@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * @Author: ouyangyameng
@@ -42,6 +41,7 @@ public class M15ThreeSum {
 
     private boolean hasResult(Map<Integer, List<Integer>> cache, int[] nums, int n1, int n2) {
         int num3 = -(nums[n1] + nums[n2]);
+        //只取num3为最大值的解，防止重复
         if (num3 < nums[n1] || num3 < nums[n2]) {
             return false;
         }

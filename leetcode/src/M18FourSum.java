@@ -45,6 +45,7 @@ public class M18FourSum {
         Set<List<Integer> > set = new HashSet<>();
         Arrays.sort(nums);
 
+        //多套了一层循环的3sum
         for(int i=0; i<nums.length-3; i++){
             for(int j=i+1; j<nums.length-2; j++){
                 int left = j+1;
@@ -53,6 +54,7 @@ public class M18FourSum {
                 while(left<right){
                     int sum = nums[i]+nums[j]+nums[left]+nums[right];
 
+                    //与closet不同，直接遍历到target需要继续夹逼寻找所有解
                     if(sum==target) {
                         set.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
                         left++;

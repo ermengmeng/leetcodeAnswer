@@ -3,9 +3,9 @@
  * @Date: 2023/1/17 13:39
  * @Version 1.0
  */
-public class M28FindTheIndexOfTheFirstOccurrenceInAString {
+public class E28FindTheIndexOfTheFirstOccurrenceInAString {
     public static void main(String[] args) {
-        System.out.println(new M28FindTheIndexOfTheFirstOccurrenceInAString().strStr("ababaabbbbababbaabaaabaabbaaaabbabaabbbbbbabbaabbabbbabbbbbaaabaababbbaabbbabbbaabbbbaaabbababbabbbabaaabbaabbabababbbaaaaaaababbabaababaabbbbaaabbbabb", "abbabbbabaa"));
+        System.out.println(new E28FindTheIndexOfTheFirstOccurrenceInAString().strStr("ababaabbbbababbaabaaabaabbaaaabbabaabbbbbbabbaabbabbbabbbbbaaabaababbbaabbbabbbaabbbbaaabbababbabbbabaaabbaabbabababbbaaaaaaababbabaababaabbbbaaabbbabb", "abbabbbabaa"));
     }
 
     public int strStr(String haystack, String needle) {
